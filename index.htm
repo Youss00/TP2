@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP2-etape-1</title>
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/accueil.css">
+    <link rel="stylesheet" href="CSS/inscription.css"/>
+    <link rel="stylesheet" href="CSS/article.css">
+    <link rel="stylesheet" href="CSS/galerie.css" />
+    <link rel="stylesheet" href="CSS/tableau.css" />
+    <link rel="stylesheet" href="CSS/video.css" />
+    <link rel="stylesheet" href="CSS/footer.css">
+
+  </head>
+  <body>
+    <nav class="menu">
+      <a href="#accueil">Accueil</a>
+      <a href="#inscription">Inscription</a>
+      <a href="#article">Article</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#tableau">Tableau</a>
+      <a href="#video">Vidéo</a>
+      <a href="#footer">Footer</a>
+    </nav>
+    <section id="accueil">
+      <h1>TP2</h1>
+      <h2>Commission Dessin</h2>
+      <h3>Youssra Seghier</h3>
+      <p>
+        Ce site présente les dessins de Youssra Seghier et de payer des commissions pour avoir un dessin personnalisé selon le style choisit
+      </p>
+      <a href="https://youss00.github.io/TP2/">https://youss00.github.io/TP2/</a>
+       
+      <p>
+        1W1- Mise en page - Technique d'intégration multimédia - Collège de
+        Maisonneuve
+      </p>
+    </section>
+    <!-- ////////////////////////////////////// Inscription\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <section id="inscription">
+      <h1>Inscription</h1>
+      <h3>Pour pourvoir commander des commissions et recevoir des nouveautés rapidement</h3>
+      <form class="formulaire">
+        <label for="txt-prenom">Votre prénom</label>
+        <input type="text" name="txt_prenom" id="txt-prenom" />
+        <label for="txt-nom">Votre nom</label>
+        <input type="text" name="txt_nom" id="txt-nom" />
+        <label for="txt-courriel">Votre courriel</label>
+        <input type="text" name="txt_courriel" id="txt-courriel">
+        <label for="pass">Mots de passe</label>
+        <input type="password" id="pass" name="password"
+           minlength="1" required>
+      </form>
+      <form class="checkbox1">
+      <input type="checkbox" id="chk-burger" />
+      <label for="chk-burger" class="burger" > Oui, je suis intéressé(e) à recevoir des nouvelles dans mon courriel</label> 
+      </form> 
+      <form class="checkbox2">
+      <input type="checkbox" id="chk-burger2" />
+      <label for="chk-burger" class="burger" >Non, je ne suis pas intéressé(e) à recevoir des nouvelles dans mon courriel</label> 
+   </form>
+   <form class="soumettre"><input type="submit" value="Soumettre"></form>
+  </section>
+  <!-- ////////////////////////////////////////article\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <section id="article">
+      <h1>Article</h1>
+      <article class="evenement">
+        <section class="text1">
+          <h1>Événement à venir</h1>
+            <p>- En direct chaque semaine en dessinant.</p>
+            <p>- Ouverture d'une grande demande de commission.</p>
+            <p>- Plus de styles disponibles!</p>
+        </section>
+        <figure>
+          <img src="images/twitch.png" alt="Twitch" width="300" height="300"/>
+        </figure>
+      </article>
+    </section>
+      <article class="nouveaute">
+        <section class="text2">
+          <h1>Nouveautés!</h1>
+          <p>- Écriture d'un WEBTOON</p>
+          <p>- Nouveau style ajouté: Dessin Fantaisie et FanArt.</p>
+          <p>- Réduction de prix de la majorité des styles.</p>
+          <p>Délai de réception plus rapide.</p>
+        </section>
+        <figure>
+          <img src="images/webtoon.jpg" alt="WEBTOON" width="300" height="228"/>
+        </figure>
+     </article>
+    <!-- ////////////////////////////////////////Galerie\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <section id="galerie">
+      <h1>Galerie</h1>
+      <h3>Les différents styles de dessins possibles</h3>
+      <div class="dessin">
+        <figure class="dessin1">
+          <img
+            src="images/dessin1.jpg"
+            alt=""
+            width="304"
+            height="305"
+          />
+          <figcaption>Dessin non-réaliste</figcaption>
+        </figure>
+        <figure class="dessin2">
+          <img
+            src="images/dessin2.jpg"
+            alt=""
+            width="255"
+            height="305"
+          />
+          <figcaption>Dessin semi-réaliste</figcaption>
+        </figure>
+        <figure class="dessin3">
+          <img
+            src="images/dessin3.jpg"
+            alt=""
+            width="290"
+            height="305"
+          />
+          <figcaption>Dessin Réaliste</figcaption>
+        </figure>
+        <figure class="dessin4">
+          <img
+            src="images/dessin4.JPG" 
+            alt=""
+            width="263"
+            height="305"
+          />
+          <figcaption>Dessin Fanart</figcaption>
+        </figure>
+       <figure class="dessin5">
+        <img
+        src="images/dessin5.JPG" 
+        alt=""
+        width="263"
+        height="305"
+        />
+        <figcaption>Dessin fantaisie</figcaption>
+       </figure> 
+      </div>
+    </section>
+
+     <!-- /////////////////////////////////////////////////////// tableau \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+    <section id="tableau">
+      <h1>Tableau</h1>
+      <h3>Les prix posés pour chaque style de dessin </h3>
+      <!-- table>(tr>(td>lorem2)*3)*4 -->
+      <table class="mon_tableau">
+        <!-- (tr>(th>lorem2)*3) -->
+        <tr>
+          <th>Type de dessin</th>
+          <th>Description</th>
+          <th>Prix</th>
+        </tr>
+        <tr>
+          <td>Dessin non-réaliste</td>
+          <td>Un dessin dans le style manga et/ou cartoon.</td>
+          <td>50$</td>
+        </tr>
+        <tr>
+          <td>Dessin semi-réaliste</td>
+          <td>Un dessin qui respecte les proportions réalistes en étant dans le style manga</td>
+          <td>85$</td>
+        </tr>
+        <tr>
+          <td>Dessin réaliste</td>
+          <td>Un dessin qui respecte les proportions réalistes à la demande du client</td>
+          <td>210$</td>
+        </tr>
+        <tr>
+          <td>Dessin Fanart</td>
+          <td>Un dessin qui reprend les designs des personnages existants dans un autres styles</td>
+          <td>150$</td>
+        </tr>
+        <tr>
+          <td>Dessin fantaisie</td>
+          <td>Un dessin qui ne respecte pas les proportions humains à la demande client</td>
+          <td>300$</td>
+        </tr>
+      </table>
+    </section>
+    <!-- ///////////////////////////////////Vidéo\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <section id="video">
+      <h1>Vidéo</h1>
+      <h3>Procésus d'un dessin et le rendu final</h3>
+      <div class="tube">
+        <iframe
+        class="youtube"
+        width="229"
+        height="300"
+        src="https://www.youtube.com/embed/dOCBRoadjcE"
+        title="Stray Kids Hyunjin Speed Drawing"
+        
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+    </iframe>
+    <iframe 
+      class="youtube"
+      width="409" 
+      height="300" 
+      src="https://www.youtube.com/embed/xc6Zd2HtQtU" 
+      title="Stray Kids Hyunjin Speed Drawing Ddaeng" 
+      
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+      
+      
+    </section>
+    <section id="footer">
+      
+      <dl class="adresse">
+        <dt>Nous Joindre</dt>
+        <dd>3800 R. Sherbrooke E </dd>
+        <dd>Montréal, QC H1X 2A2</dd>
+        <dd>(514) 254-7131</dd>
+      </dl>
+      <dl class="lien">
+        <dt>Liens importants</dt>
+        <dd><a href="#accueil">Accueil</a></dd>
+        <dd><a href="#inscription">Inscription</a></dd>
+        <dd><a href="#article">Article</a></dd>
+        <dd><a href="#galerie">Galerie</a></dd>
+        <dd><a href="#tableau">Tableau</a></dd>
+        <dd><a href="#video">Vidéos</a></dd>
+      </dl>
+      <dl class="description">
+        <dt>Description du département</dt>
+        <dd>Ce programme mène à un diplôme d'études
+          collégiales permettant d'acquérir 
+          les compétences pour travailler dans 
+          l'univers du Web, des technologies mobiles,
+           du jeu vidéo et des médias numériques, 
+           tant sur les plans de l'analyse, de la 
+           planification, de la conception que de la 
+           réalisation.</dd>
+        
+      </dl>
+     
+      <section class="util">
+        <div class="sociaux">
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=facebook&color=white"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=github&color=white"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=instagram&color=white"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=paypal&color=white"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=twitter&color=white"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=youtube&color=white"
+            width="16"
+            height="16"
+            alt=""
+          />
+        </div>
+        <form action="search" class="recherche">
+          <input type="search" />
+          <img
+            src="https://s2.svgbox.net/materialui.svg?ic=search&amp;color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+        </form>
+      <p>
+        Exercice #1 &copy; | 1W1 - Mise en page Web | TIM - Technique
+        d'intégration multimédia
+      </p>
+    </section>
+    </section>
+  </body>
+</html>

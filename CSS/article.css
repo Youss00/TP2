@@ -1,0 +1,35 @@
+#article{
+    background-color: rgb(85, 17, 84);
+    display: flex;
+    flex-wrap: wrap;
+  }
+.evenement{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+    border: 1px solid black;
+    background-color: rgb(185, 150, 217);
+    align-items: center;
+    justify-content: center;
+}
+.nouveaute{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100px;
+    border: 1px solid black;
+    background-color: rgb(185, 150, 217);
+    align-items: center;
+    justify-content: center;
+}
+article h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+#article h1{
+    color:white
+}
+.text1, .text2{
+    font-weight: bold;
+    
+}

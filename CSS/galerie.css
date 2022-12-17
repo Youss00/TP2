@@ -1,0 +1,55 @@
+#galerie {
+    /* background-color: rgb(131, 42, 130); */
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(119, 0, 99, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(193, 0, 106, 0.8), rgb(0, 0, 0) 70.71%);
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+.dessin {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .dessin1:hover {
+    transform: scale(1.2);
+    transition: transform 0.25s;
+  }
+  .dessin2:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+  }
+  .dessin3:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+  }
+  .dessin4:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+  }
+  .dessin5:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+  }
+  figcaption{
+    font-weight: bold;
+    text-align: center;
+  }
+  .dessin figure{
+    box-shadow: 10px 6px 15px rgb(32, 1, 47);
+  }
+  .dessin figcaption{
+    color: white;
+    padding: 5px;
+    margin-top:-4px;
+    background-color: rgb(32, 1, 47);
+  }
+  #galerie{
+    color: white;
+  }
+  #galerie h3{
+    font-weight: bold;
+  }

@@ -1,0 +1,19 @@
+#video {
+  background-color: rgb(131, 42, 130);
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+#video h3{
+  font-weight: bold;
+}
+.tube{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: space-around;
+}
+.youtube{
+  border: none;
+}

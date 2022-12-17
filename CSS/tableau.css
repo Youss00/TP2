@@ -1,0 +1,48 @@
+#tableau {
+  background-color: rgb(85, 17, 84);
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../images/tableau.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.mon_tableau {
+  border-collapse: collapse;
+  border: 1px double rgb(60, 1, 38);
+}
+
+.mon_tableau td,
+.mon_tableau th {
+  border: 1px double rgb(61, 0, 40);
+  padding: 20px;
+}
+.mon_tableau th {
+  font-size: 1.1rem;
+  background-color: rgb(134, 9, 150);
+  color: white;
+
+}
+/* 
+pour rendre le noir plus pale
+background-color: rgba(255, 255, 255, 0.1);
+ */
+
+.mon_tableau td {
+  background-color: rgb(151, 170, 234);
+  font-weight: bold;
+}
+.mon_tableau td:hover {
+  background-color: rgb(57, 65, 139);
+  color: white;
+}
+#tableau h3{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.081);
+  font-weight: bold;
+}
+#tableau h1{
+  color: rgb(196, 234, 255);
+  -webkit-text-stroke: 3px rgb(47, 88, 185);
+  font-weight: bold;
+  
+}

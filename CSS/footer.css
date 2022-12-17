@@ -1,0 +1,55 @@
+#footer {
+    background-color: rgb(47, 7, 46);
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+#footer dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+.adresse{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex-direction: column;
+}
+.lien{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: baseline;
+    
+}
+.lien a{
+    text-decoration:underline;
+    color: rgb(255, 243, 254);
+    
+}
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.lien dt{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.description dt{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.adresse dt{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.recherche{
+    text-align: center;
+}

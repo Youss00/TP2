@@ -1,0 +1,63 @@
+#inscription {
+  background-color: rgb(131, 42, 130);
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  padding: 21px;
+  justify-content: flex-start;
+  align-items: baseline;
+  background-image: url("../images/inscription.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-text-stroke: 1px rgb(191, 92, 138);
+
+}
+.formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: rgba(0, 0, 0, 0.147); */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.formulaire label {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0 0 0;
+}
+.formulairelabel label,
+.formulaire {
+  width: 200px;
+}
+.checkbox1{
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  background-color:#00000038;
+  -webkit-text-stroke: 1px rgb(191, 92, 138);
+  font-size: 1.5rem;
+}
+.checkbox2{
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  background-color:#00000038;
+  -webkit-text-stroke: 1px rgb(198, 99, 146);
+  font-size: 1.5rem;
+}
+#inscription h1{
+  -webkit-text-stroke: 4px rgb(214, 30, 116);
+  color: rgb(255, 199, 217);
+}
+#inscription h3{
+  font-weight: bold;
+  -webkit-text-stroke: 1px rgb(191, 92, 138);
+}
+.soumettre{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
